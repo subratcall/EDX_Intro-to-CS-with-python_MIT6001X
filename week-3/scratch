@@ -1,0 +1,8 @@
+
+lettersGuessed = ['a', 'c']
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+for char in lettersGuessed:
+    if char in alphabet:
+        alphabet = alphabet.replace(char, '')
+#print(alphabet)
+print(alphabet)
